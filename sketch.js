@@ -8,9 +8,9 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(400,400);
+  createCanvas(600,600);
 
-  path=createSprite(200,250);
+  path=createSprite(300,300);
   path.addImage(pathImg);
   path.velocityY = 4;
   path.scale=1.2;
@@ -22,8 +22,8 @@ function setup(){
   leftBoundary=createSprite(0,0,100,800);
   leftBoundary.visible = false;
 
-  rightBoundary=createSprite(410,0,100,800);
-  rightBoundary.invisible = true;
+  rightBoundary=createSprite(500,0,100,800);
+  rightBoundary.visible = false;
 }
 
 function draw() {
